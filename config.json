@@ -1,0 +1,17 @@
+{
+  "pro": true,
+  "babel": {
+    "ignore" : "node_modules/(?!bpk-)",
+    "presets": [
+      "es2015",
+      "react"
+    ],"plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "env": {
+    "params": {
+      "env": "BABEL_ENV=dev"
+    }
+  }
+}
